@@ -1,0 +1,24 @@
+{
+  "name": "gitbook-plugin-litfl-2",
+  "description": "Life in the Fast Lane Gitbook Nav",
+  "main": "index.js",
+  "version": "0.1",
+  "engines": {
+    "gitbook": ">=2.5.1"
+  },
+  "homepage": "https://github.com/chrisjake/gitbook-plugin-litfl-2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisjake/gitbook-plugin-litfl-2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjake/gitbook-plugin-litfl-2/issues"
+  },
+  "gitbook": {
+    "properties": {}
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  }
+}
