@@ -13,7 +13,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
       
       // Add customised html to DOM
       if($('div.custom-header').length === 0) { //prevent multiples being added
-        var $header = $('<div class="custom-header"></div>');
+        var $header = $('<div id="litfl-header" class="custom-header"></div>');
         var $headerWrapper = $('<div class="header-element-wrapper"></div>');
         var $link = $(createHeader());
         $headerWrapper.append($link);
